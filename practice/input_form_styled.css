@@ -1,0 +1,113 @@
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.name {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.first_name {
+  padding-right: 5px;
+}
+
+.last_name {
+  padding-left: 5px;
+}
+
+.address {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.city {
+  width: 50%;
+  padding-right: 5px;
+}
+
+.state  {
+  width: 10%;
+  padding-right: 5px;
+  padding-left: 2.5px;
+}
+
+.zip {
+  width: 40%;
+  padding-left: 5px;
+}
+
+input, select {
+  display: block;
+}
+
+dd, dt {
+  margin: 0;
+}
+
+input[type="radio"] {
+  vertical-align: 3px;
+}
+
+input[type="checkbox"] {
+  vertical-align: 2px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+  font-size: 16px;  
+}
+
+input[type="text"], input[type="email"] {
+  height: 30px;
+}
+
+select {
+  height: 36px;
+}
+
+label {
+  display:block;
+  margin: 15px 0 15px 0;
+}
+
+fieldset {
+  margin-top: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  border: none;
+}
+
+button {
+  background-color: lightblue;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+input[type="text"]:hover, 
+input[type="text"]:focus,
+input[type="email"]:hover, input[type="email"]:focus, textarea:hover, textarea:focus, select:hover, select:focus {
+  outline: none;
+}
+
+.tech {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.inline {
+  display: inline;
+}

@@ -1,0 +1,92 @@
+body, main, figure, figcaption, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(http://d3jtzah944tvom.cloudfront.net/202/images/lesson_3/gradient-background.png);
+  background-size: cover;
+}
+
+figure {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  font-size: 20px;
+}
+
+nav ul {
+  margin-left: 50px;
+  background-color: yellow;
+  width: 100%;
+  padding-left: 0;
+  font-size:0;
+}
+
+nav li:hover, nav li:focus {
+  color: yellow;
+  background-color: green;
+}
+
+nav a {
+  box-sizing: border-box;
+  line-height: 2.5;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+}
+
+ul li {
+  font-size: 1rem;
+  text-align: center;
+  list-style-type: none;
+  height: 40px;
+  display: inline-block;
+  width: 25%;
+}
+
+table {
+  background: cyan;
+  border-collapse: collapse;
+}
+ 
+/*td {
+  background: orange;
+}*/
+
+/*.yellow {
+  background: yellow;
+}*/
+
+table tr:nth-child(2n+1) {
+  background-color: yellow;
+}
+
+tbody tr:nth-child(2n+2) {
+  background-color: orange;
+}
+
+#test * {
+  background-color: inherit;
+}
+
+#test [scope="col"] {
+  background-color: green;
+}
+
+#test [scope="row"] {
+  background-color: blue;
+}

@@ -1,0 +1,71 @@
+<body>
+  <form action="#" method="post">
+    <dl>
+      <dt>
+        <label for="first_name">First Name</label>
+      </dt>
+      <dd>
+        <input type="text" id="first_name" name="first_name" required />
+      </dd>
+
+      <dt>
+        <label for="last_name">Last Name</label>
+      </dt>
+      <dd>
+        <input type="text" id="last_name" name="last_name" required />
+      </dd>
+
+      <dt>
+        <label for="email">Email</label>
+      </dt>
+      <dd>
+        <input type="email" id="email" name="email" autocomplete="off" autocorrect="off" required />
+      </dd>
+      <dt>
+        <label for="phone">Phone</label>
+      </dt>
+      <dd>
+        <input type="tel" id="phone" name="phone" placeholder="###-###-####" required />
+      </dd>
+      <dt>
+        <label for="phone_type">Type</label>
+      </dt>
+      <dd>
+        <select id="phone_type" name="phone_type">
+          <option selected>Home</option>
+          <option>Business</option>
+          <option>Mobile</option>
+        </select>
+      </dd>
+      <dt>
+        <label for="text_box">Message:</label>
+      </dt>
+      <dd>
+        <textarea id="text_box" name="text_box" rows="6" cols="80" placeholder="Type your message here"></textarea>
+      </dd>
+    </dl>
+    <input type="submit" value="Send" />
+  </form>
+
+  <form action="#" method="get">
+    <fieldset>
+      <label>
+        Search for
+        <input type="text" />
+      </label>
+      <label>
+        <input type="radio" id="tv" name="genre" value="tv" checked />
+        TV
+      </label>
+      <label>
+        <input type="radio" id="movies" name="genre" value="movies" />
+        movies
+      </label>
+      <label>
+        <input type="radio" id="music" name="genre" value="music" />
+        music
+      </label>
+      <button name="search">Search</button>
+    </fieldset>
+  </form>
+</body>

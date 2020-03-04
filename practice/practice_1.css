@@ -1,0 +1,62 @@
+body {
+  width: 600px;
+}
+
+p {
+  font-size: 18px;
+}
+
+article p {
+  color: brown;
+}
+
+main li {
+  color: purple;
+  font-family: monospace;
+}
+
+main li a {
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subheading {
+  background-color: #e0e0e0;
+}
+
+#intro {
+  font-size: 24px;
+}
+
+main ul > li {
+  color: green;
+}
+
+div {
+  background-color: lightgray;
+  border: 1px solid black;
+  box-sizing: content-box;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 720px;
+}
+
+tag1, tag2 {
+  box-sizing: border-box;
+  height: 240px;
+  margin: 0;
+  padding: 0;
+  width: 360px;
+}
+
+tag1 {
+  background-color: yellow;
+}
+
+tag2 {
+  background-color: lime;
+}
